@@ -16,16 +16,6 @@
 
 LOCAL_PATH := vendor/motorola/xt925
 
-# Prebuilt libraries that are needed to build open-source libraries
-#PRODUCT_COPY_FILES := \
-#    vendor/motorola/xt925/proprietary/lib/libMali.so:obj/lib/libMali.so \
-#    vendor/motorola/xt925/proprietary/lib/libUMP.so:obj/lib/libUMP.so \
-
-#$(shell mkdir -p out/target/product/zatab/obj/SHARED_LIBRARIES/libMali_intermediates)
-#$(shell mkdir -p out/target/product/zatab/obj/SHARED_LIBRARIES/libUMP_intermediates)
-#$(shell touch out/target/product/zatab/obj/SHARED_LIBRARIES/libMali_intermediates/export_includes)
-#$(shell touch out/target/product/zatab/obj/SHARED_LIBRARIES/libUMP_intermediates/export_includes)
-
 -include device/motorola/xt925/prebuilt.mk
 
 PRODUCT_COPY_FILES += \
@@ -143,7 +133,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt925/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
     vendor/motorola/xt925/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
     vendor/motorola/xt925/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
-    vendor/motorola/xt925/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
     vendor/motorola/xt925/proprietary/lib/libopenssl-smime.so:system/lib/libopenssl-smime.so \
     vendor/motorola/xt925/proprietary/lib/libpanorama_jni.so:system/lib/libpanorama_jni.so \
     vendor/motorola/xt925/proprietary/lib/libpanorama.so:system/lib/libpanorama.so \
