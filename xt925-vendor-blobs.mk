@@ -85,7 +85,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt925/proprietary/lib/libbabysit.so:system/lib/libbabysit.so \
     vendor/motorola/xt925/proprietary/lib/libbson.so:system/lib/libbson.so \
     vendor/motorola/xt925/proprietary/lib/libbt-aptx-4.0.4.so:system/lib/libbt-aptx-4.0.4.so \
-    vendor/motorola/xt925/proprietary/lib/libcaps.so:system/lib/libcaps.so \
     vendor/motorola/xt925/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
     vendor/motorola/xt925/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
     vendor/motorola/xt925/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
@@ -108,7 +107,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt925/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/motorola/xt925/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/motorola/xt925/proprietary/lib/libimssettings.so:system/lib/libimssettings.so \
-    vendor/motorola/xt925/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
     vendor/motorola/xt925/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/motorola/xt925/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
     vendor/motorola/xt925/proprietary/lib/libmm-audio-resampler.so:system/lib/libmm-audio-resampler.so \
@@ -133,8 +131,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt925/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
     vendor/motorola/xt925/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/motorola/xt925/proprietary/lib/libopenssl-smime.so:system/lib/libopenssl-smime.so \
-    vendor/motorola/xt925/proprietary/lib/libpanorama_jni.so:system/lib/libpanorama_jni.so \
-    vendor/motorola/xt925/proprietary/lib/libpanorama.so:system/lib/libpanorama.so \
     vendor/motorola/xt925/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/motorola/xt925/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/motorola/xt925/proprietary/lib/libqdp.so:system/lib/libqdp.so \
