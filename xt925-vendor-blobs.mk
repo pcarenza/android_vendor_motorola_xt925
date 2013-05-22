@@ -77,11 +77,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt925/proprietary/lib/hw/sensorhub.msm8960.so:system/lib/hw/sensorhub.msm8960.so \
     vendor/motorola/xt925/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/motorola/xt925/proprietary/lib/hw/sensors.oem.so:system/lib/hw/sensors.oem.so \
-    vendor/motorola/xt925/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/motorola/xt925/proprietary/lib/libAKM.so:system/lib/libAKM.so \
     vendor/motorola/xt925/proprietary/lib/libapnjni.so:system/lib/libapnjni.so \
     vendor/motorola/xt925/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-    vendor/motorola/xt925/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/motorola/xt925/proprietary/lib/libbabysit.so:system/lib/libbabysit.so \
     vendor/motorola/xt925/proprietary/lib/libbson.so:system/lib/libbson.so \
     vendor/motorola/xt925/proprietary/lib/libbt-aptx-4.0.4.so:system/lib/libbt-aptx-4.0.4.so \
@@ -102,14 +100,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt925/proprietary/lib/libfrsdk.so:system/lib/libfrsdk.so \
     vendor/motorola/xt925/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/motorola/xt925/proprietary/lib/libgps.so:system/lib/libgps.so \
-    vendor/motorola/xt925/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/motorola/xt925/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/motorola/xt925/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/motorola/xt925/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/motorola/xt925/proprietary/lib/libimssettings.so:system/lib/libimssettings.so \
     vendor/motorola/xt925/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/motorola/xt925/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
-    vendor/motorola/xt925/proprietary/lib/libmm-audio-resampler.so:system/lib/libmm-audio-resampler.so \
     vendor/motorola/xt925/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/motorola/xt925/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/motorola/xt925/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
@@ -190,7 +186,19 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt925/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/motorola/xt925/proprietary/lib/libsensorhub_jni.so:system/lib/libsensorhub_jni.so \
     vendor/motorola/xt925/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
+    vendor/motorola/xt925/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/motorola/xt925/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/motorola/xt925/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/motorola/xt925/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/motorola/xt925/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
+    vendor/motorola/xt925/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
+    vendor/motorola/xt925/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
+    vendor/motorola/xt925/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
+    vendor/motorola/xt925/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
+    vendor/motorola/xt925/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
+    vendor/motorola/xt925/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
     vendor/motorola/xt925/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/motorola/xt925/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
     vendor/motorola/xt925/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
     vendor/motorola/xt925/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
     vendor/motorola/xt925/proprietary/lib/libmmcamera_statsproc30.so:system/lib/libmmcamera_statsproc30.so \
@@ -217,14 +225,5 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt925/proprietary/lib/libchromatix_s5k3l1yx_preview.so:system/lib/libchromatix_s5k3l1yx_preview.so \
     vendor/motorola/xt925/proprietary/lib/libchromatix_s5k3l1yx_video_hd.so:system/lib/libchromatix_s5k3l1yx_video_hd.so \
     vendor/motorola/xt925/proprietary/lib/libchromatix_s5k3l1yx_zsl.so:system/lib/libchromatix_s5k3l1yx_zsl.so \
-    vendor/motorola/xt925/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/motorola/xt925/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/motorola/xt925/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/motorola/xt925/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/motorola/xt925/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-    vendor/motorola/xt925/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
-    vendor/motorola/xt925/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
-    vendor/motorola/xt925/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
-    vendor/motorola/xt925/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
-    vendor/motorola/xt925/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
-    vendor/motorola/xt925/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt
+    vendor/motorola/xt925/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/motorola/xt925/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so
